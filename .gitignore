@@ -1,8 +1,6 @@
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
-!260903/src/main/**/build/
-!260903/src/test/**/build/
 .kotlin
 
 ### IntelliJ IDEA ###
@@ -14,8 +12,6 @@ build/
 *.iml
 *.ipr
 out/
-!260903/src/main/**/out/
-!260903/src/test/**/out/
 
 ### Eclipse ###
 .apt_generated
@@ -26,8 +22,6 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!260903/src/main/**/bin/
-!260903/src/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/
