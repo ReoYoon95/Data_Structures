@@ -17,6 +17,10 @@ public class MyArrayListTest {
 //        list.add(5);
 //        list.add(6);
 //        list.add(7);
+        list.getMinIdx();
+        list.getMaxIdx();
+        System.out.println("Min index: " + list.getMinIdx());
+        System.out.println("Max index: " + list.getMaxIdx());
         System.out.println(list.toString());
 
     }

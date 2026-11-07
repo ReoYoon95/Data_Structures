@@ -12,4 +12,6 @@ public interface ListInterface<E> {
     public int size();                 // 현재 원소 개수 반환
     public boolean isEmpty();          // 비어있는지 확인
     public void clear();               // 전체 비우기
+    public int getMaxIdx();
+    public int getMinIdx();
 }
