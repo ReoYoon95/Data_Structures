@@ -14,7 +14,9 @@ public class MyLinkedList<E> implements MyList<E> {
             Node<E> newNode = new Node<>(x, prevNode.next);
             prevNode.next = newNode;
             numItems++;
-        } else { /* 에러 처리 */ }
+        } else {
+            throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + numItems);
+            }
     }
     public void append(E x) {
         add(numItems, x);
